@@ -2,7 +2,7 @@ export const data = [
     {
         symbol: "😴",
         name: "cara con sueño",
-        keywords: "dream exhausted tired "
+        keywords: "dream exhausted tired sleep "
     },
     {
         symbol: "❤",

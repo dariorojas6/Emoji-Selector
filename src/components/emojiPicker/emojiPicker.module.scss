@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("https://ipadizate.com/hero/2022/09/emojis-pantalla-inicio-iPhone.jpg?width=1200&aspect_ratio=16:9") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.emojiPickerInput {
+    background-color: rgba(255, 255, 255, 0.776);
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    // margin-top: 50px;
+    // position: absolute;
+
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+
+}
+
+.emojiPickerInputPadre {
+    position: relative;
+
+}
+
+.inputContainer {
+
+    display: inline-flex;
+    position: relative;
+ 
+      
+
+}
+
+.emojiPickerContainer {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: solid 1px white;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 50px;
+    border-radius: 7px;
+}
+
+.emojiPickerButton {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(149, 175, 101);
+    border: none;
+    cursor: pointer;
+    
+
+
+}
+
+.emojisList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.emojiButton {
+    border: none;
+    font-size: 28px;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.emojiButton:hover {
+    background-color: white;
+}
+
+.search {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
